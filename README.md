@@ -20,7 +20,7 @@ purpose of **obstacles**. There is **treasure** hidden in one of the cells of
 the maze. _The goal of **reinforcement learning agent** is to find the best
 path to the treasure from any cell in the maze while avoiding the obstacles._
 
-In the code below, the maze is enclosed in the ``` Board Class```. It is
+In our code, the maze is enclosed in the ``` Board Class```. It is
 described as a partial adjacency matrix of the cells which are reachable from
 each other i.e., not separated by a wall. In addition to the cells, the board
 class contains the location of the cell in which treasure is hidden.
@@ -33,7 +33,7 @@ standard in Q-learning pardigm:
   - **Quality** of the action; dictated by the history of moves which follow
     the action - learnt by the agent through experience
 
-In the agent class coded below, the class private matrices **R** and **Q**
+In our agent class, the class private matrices **R** and **Q**
 serve as the two metrics described above repectively.
 
 The agent learns to navigate the maze iteratively via the ```train ()```
