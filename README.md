@@ -14,7 +14,7 @@ The code for this assignment is entirely contained in the following notebook:
 ## Documentation
 The documentation of our algorithm is reproduced here for clarity.
 
-## Description of Map
+### Description of Map
 The map is conceived of as a maze in which walls between cells serve the
 purpose of **obstacles**. There is **treasure** hidden in one of the cells of
 the maze. _The goal of **reinforcement learning agent** is to find the best
