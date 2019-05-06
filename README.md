@@ -29,7 +29,7 @@ class contains the location of the cell in which treasure is hidden.
 We use the Q-learning approach to design an AI agent which can solve the board.
 In our design, the behavior of the Q-agent is governed by two metrics; as is
 standard in Q-learning pardigm:
-  - Imediate **reward** associated with an action
+  - Immediate **reward** associated with an action
   - **Quality** of the action; dictated by the history of moves which follow
     the action - learnt by the agent through experience
 
